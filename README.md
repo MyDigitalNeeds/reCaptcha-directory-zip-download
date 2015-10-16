@@ -1,4 +1,12 @@
-# reCaptcha-directory-zip-download
+# reCaptcha directory-zip-download
+
+##Need a quick way to let visitors download the contents of a directory as a zip file, but want to keep the bots at bay?
+
+Google's reCaptcha service to the rescue!
+
+##Prerequisites
+You will need to create a reCaptcha key from https://www.google.com/recaptcha/admin. If your domain is example.com, be sure to add both example.com and www.example.com. Once you have the key, edit the markup in index.html to use the key or if you use the example.php script provided, modify the script to include your key. Each website should have it's own key.
+
 PHP Implentation of a reCaptcha verified form-to-download of a pre-selected directory such as letting users download a copy front-end website assets.
 
 Here at Commnetivity, we host many websites that use many of the same Javascript and CSS libraries. While hard disk space may
